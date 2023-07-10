@@ -3,6 +3,10 @@
   "version": "3.31.0",
   "description": "PrimeVue Sass Theme",
   "homepage": "https://primevue.org/",
+  "scripts": {
+    "compile:theme-dark": "sass --update themes/arcadian/dark/theme.scss:themes/arcadian/dark/theme.css",
+    "compile:theme-light": "sass --update themes/arcadian/light/theme.scss:themes/arcadian/light/theme.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/primefaces/primevue-sass-theme.git"
@@ -20,5 +24,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/primefaces/primevue-sass-theme/issues"
+  },
+  "devDependencies": {
+    "sass": "^1.63.6"
   }
 }

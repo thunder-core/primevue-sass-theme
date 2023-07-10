@@ -1,4 +1,4 @@
-$primaryColor: #b19df7 !default;
+$primaryColor: #00AB95 !default;
 $primaryLightColor: scale-color($primaryColor, $lightness: 60%) !default;
 $primaryDarkColor: scale-color($primaryColor, $lightness: -5%) !default;
 $primaryDarkerColor: scale-color($primaryColor, $lightness: -10%) !default;
@@ -20,6 +20,7 @@ $colors: (
         "bluegray": #6878A0,
         "purple": #7254F3,
         "red": #FF384B,
+        "secondary": #00A3EB,
         "primary": $primaryColor
 );
 
@@ -883,6 +884,25 @@ $imagePreviewActionIconBorderRadius: 50% !default;
   --gray-700: #4a4b52;
   --gray-800: #34343d;
   --gray-900: #1d1e27;
+  --neutral-50: #FCFCFC;
+  --neutral-100: #EDEDED;
+  --neutral-200: #E1E1E1;
+  --neutral-300: #CECECE;
+  --neutral-400: #A9A9A9;
+  --neutral-500: #888888;
+  --neutral-600: #616161;
+  --neutral-700: #4E4E4E;
+  --neutral-800: #303030;
+  --neutral-900: #101010;
+  --system-color-medium: #282B2E;
+  --system-color-medium-dark: #111920;
+  --system-color-light-dark: #162532;
+  --system-color-light: #162532;
+  --system-color-alert-dark: #BA1A1A;
+  --system-color-alert: #FF7A67;
+  --system-color-positive: #01D55F;
+  --system-color-warning: #C7A82F;
+  --system-color-warning-dark: #665100;
   --content-padding: #{$panelContentPadding};
   --inline-spacing: #{$inlineSpacing};
   --border-radius: #{$borderRadius};
