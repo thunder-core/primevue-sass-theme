@@ -1,4 +1,4 @@
-$primaryColor: #00AB95 !default;
+$primaryColor: #00A3EB !default;
 $primaryLightColor: scale-color($primaryColor, $lightness: 60%) !default;
 $primaryDarkColor: scale-color($primaryColor, $lightness: -5%) !default;
 $primaryDarkerColor: scale-color($primaryColor, $lightness: -10%) !default;
@@ -9,13 +9,13 @@ $highlightTextColor: $primaryColor !default;
 $highlightFocusBg: rgba($primaryColor, .24) !default;
 
 $colors: (
-        "blue": #00A3EB,
+        "blue":  #54b0f3,
         "green": #29C76F,
         "yellow": #F3D054,
         "cyan": #3EC9D6,
         "pink": #EA5455,
         "indigo": #5464F3,
-        "teal": #0DC381,
+        "teal": #00AB95,
         "orange": #FF9F42,
         "bluegray": #6878A0,
         "purple": #7254F3,
@@ -896,7 +896,7 @@ $imagePreviewActionIconBorderRadius: 50% !default;
   --system-color-medium: #282B2E;
   --system-color-medium-dark: #111920;
   --system-color-light-dark: #162532;
-  --system-color-light: #162532;
+  --system-color-light: #3A566D;
   --system-color-alert-dark: #BA1A1A;
   --system-color-alert: #FF7A67;
   --system-color-positive: #01D55F;
